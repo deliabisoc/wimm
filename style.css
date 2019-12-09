@@ -1,0 +1,481 @@
+
+
+
+/*Edit yellow box (ID) */
+
+#box1 {
+
+    width: 260px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid yellow;
+    position: absolute;
+    top: 170px;
+    right: 470px;
+
+
+}
+
+
+
+/*Edit red box (ID)  */
+#box2 {
+
+    width: 260px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid red;
+    position: absolute;
+    top: 170px;
+
+}
+
+
+/*Edit blue box (ID) */
+#box3 {
+
+    width: 260px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid blue;
+    position: absolute;
+    top: 170px;
+    right: 25px;
+
+}
+
+
+/*Edit the question "WHERE ARE MY MONEY" */
+h2{
+    position: absolute;
+    top:10px;
+    right: 400px ;
+    color: ghostwhite;
+    text-shadow: 3px 2px grey;
+}
+
+
+/*Edit the whole body */
+body{
+    background-color: black;
+    font-size: x-large;
+}
+
+
+
+
+
+
+/*TOTAL CLASS PARAGRAPH*/
+#TotalPret
+{
+    color: ghostwhite;
+    position: absolute;
+    top: 440px;
+    left: 700px;
+
+}
+#TotalContor
+{
+    color: ghostwhite;
+    position: absolute;
+    top: 440px;
+    left: 270px;
+
+}
+
+/*QUESTION RED BOX and INPUT ITEM*/
+#HowManyXDidYouConsumeToday{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:230px;
+    left:45px;
+}
+
+#InputItemRedText {
+    position: absolute;
+    top: 195px;
+    left: 41px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+
+/*QUESTION Yellow BOX and INPUT ITEM*/
+
+#HowManyXDidYouConsumeTodayYellow{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:230px;
+    left: 480px;
+
+}
+
+#InputItemYellowText{
+    position: absolute;
+    top: 195px;
+    left: 502px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+
+#HowManyXDidYouConsumeTodayBlue{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:230px;
+    left: 920px;
+
+}
+
+#InputItemBlueText{
+    position: absolute;
+    top: 195px;
+    left: 949px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+
+/*PRICE TEXT AND INPUT*/
+
+#priceredtext{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:310px;
+    left: 85px;
+
+}
+
+#priceyellowtext{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:310px;
+    left: 530px;
+
+}
+
+#pricebluetext{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:310px;
+    left: 977px;
+
+}
+
+#pricered{
+    position: absolute;
+    top:370px;
+    left: 158px;
+    width:40px;
+    height:20px;
+
+}
+
+#priceyellow{
+    position: absolute;
+    top:370px;
+    left: 615px;
+    width:40px;
+    height:20px;
+
+}
+
+#priceblue{
+    position: absolute;
+    top:370px;
+    left: 1065px;
+    width:40px;
+    height:20px;
+
+}
+
+
+#INSERTRED{
+    position: absolute;
+    top:465px;
+    left: 140px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    height:70px;
+    border: 3px solid red;
+    background-color: ghostwhite;
+}
+
+#INSERTYELLOW{
+    position: absolute;
+    top:460px;
+    left: 598px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    height:70px;
+    border: 3px solid yellow;
+    background-color:ghostwhite;
+
+}
+
+#INSERTBLUE{
+    position: absolute;
+    top:465px;
+    left: 1050px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    height:70px;
+    border: 3px solid blue;
+    background-color: ghostwhite;
+
+}
+
+#contorred{
+    position: absolute;
+    top: 285px;
+    left: 158px;
+    width:40px;
+    height:20px;
+
+}
+
+#contoryellow{
+    position: absolute;
+    top: 285px;
+    left: 615px;
+    width:40px;
+    height:20px;
+
+}
+
+
+#contorblue{
+    position: absolute;
+    top: 285px;
+    left: 1065px;
+    width:40px;
+    height:20px;
+
+}
+#aicired{
+    color: ghostwhite;
+    position: absolute;
+    top:200px;
+
+}
+
+#aiciyellow{
+    color: ghostwhite;
+    position: absolute;
+    top:200px;
+
+}
+
+#aiciblue{
+    color: ghostwhite;
+    position: absolute;
+    top:280px;
+
+}
+
+
+
+#subtotalforred{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:395px;
+    left:118px;
+
+}
+
+#subtotalforyellow{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:95px;
+    left:503px;
+
+}
+
+
+#subtotalforblue{
+    color: ghostwhite;
+    font-size: 17px;
+    position: absolute;
+    top:195px;
+    left:1130px;
+
+}
+
+
+#aicired{
+    position: absolute;
+    top:90px;
+    left: 170px;
+
+
+}
+
+#aiciyellow{
+    position: absolute;
+    top:90px;
+    left: 637px;
+
+
+}
+
+#aiciblue{
+    position: absolute;
+    top:90px;
+    left: 1080px;
+
+
+}
+
+#aicisumapret{
+    color: ghostwhite;
+    position: absolute;
+    top:440px;
+    left:910px;
+
+}
+
+#aicisumacontor{
+    color:ghostwhite;
+    position: absolute;
+    top:440px;
+    left:530px;
+}
+
+
+
+
+
+
+
+.dropbtn {
+    background-color: ghostwhite;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 7px solid dimgrey;
+
+}
+
+.dropdown {
+    position: absolute;
+    left:1100px;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
+    width:100px;
+}
+
+#monthlybtn{
+    background-color: dimgrey;
+    color: Black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#reminder_button{
+    background-color: grey;
+    color: Black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#where_is_money_button{
+    background-color: dimgrey;
+    color: Black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#monthlybtn:hover {background-color: yellow;}
+
+#reminder_button:hover {background-color: darkred ;}
+
+#where_is_money_button:hover {background-color: darkblue;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: darkgrey;}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.modal_close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.modal_close {
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.insert[disabled] {
+    background-color: red;
+}

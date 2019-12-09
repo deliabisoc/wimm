@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WHERE IS MY MONEY?</title>
+    <link rel="stylesheet" href="style.css">
+    <?php include 'som.php';?>
+</head>
+
+<body onload="check_buttons()">
+
+<h2>Where is my Money?</h2>
+
+
+<!--RED YELLOW BLUE BOXES-->
+<div class="boxes">
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+</div>
+
+
+<!--PARAGRAPHS FOR TOTAL-->
+
+<p id="TotalPret">Total Price =</p>
+<p id="TotalContor">Counted Items =</p>
+
+
+
+
+
+<!--RED BOX-->
+<label>
+    <input type="text" id="InputItemRedText" placeholder="Input Item's Name" onchange="RedInputItem(this.value)">
+</label>
+<p id="HowManyXDidYouConsumeToday"></p>
+
+<!--Yellow BOX-->
+<label>
+    <input type="text" id="InputItemYellowText" placeholder="Input Item's Name" onchange="YellowInputItem(this.value)">
+</label>
+<p id="HowManyXDidYouConsumeTodayYellow"></p>
+
+
+<!--Blue BOX-->
+<label>
+    <input type="text" id="InputItemBlueText" placeholder="Input Item's Name" onchange="BlueInputItem(this.value)">
+</label>
+<p id="HowManyXDidYouConsumeTodayBlue"></p>
+
+
+<!--INSERT PRICE RED TEXT-->
+<p id="priceredtext">Input a price for this item:</p>
+
+<!--INSERT PRICE YELLOW TEXT-->
+<p id="priceyellowtext">Input a price for this item:</p>
+
+<!--INSERT PRICE BLUE TEXT-->
+<p id="pricebluetext">Input a price for this item:</p>
+
+
+
+
+
+
+
+
+
+<!--INSERT BUTTON RED-->
+<button class="insert" id="INSERTRED" onclick="See('red')">INSERT</button>
+
+
+
+
+<!--INSERT BUTTON YELLOW-->
+<button class="insert" id="INSERTYELLOW" onclick="See('yellow')">INSERT</button>
+
+
+<!--INSERT BUTTON BLUE-->
+<button class="insert" id="INSERTBLUE" onclick="See('blue')">INSERT</button>
+
+
+<!--INPUT CONTOR RED-->
+<label for="contorred"></label>
+<input type="number" id="contorred">
+
+<!--INPUT CONTOR Yellow-->
+<label for="contoryellow"></label>
+<input type="number" id="contoryellow">
+
+<!--INPUT CONTOR Blue-->
+<label for="contorblue"></label>
+<input type="number" id="contorblue">
+
+
+<!--INPUT PRICE RED-->
+<label for="pricered"></label>
+<input type="number" id="pricered">
+
+<!--INPUT PRICE Yellow-->
+<label for="priceyellow"></label>
+<input type="number" id="priceyellow">
+
+<!--INPUT PRICE Blue-->
+<label for="priceblue"></label>
+<input type="number" id="priceblue">
+
+<p id="aicired"></p>
+<p id="aiciyellow"></p>
+<p id="aiciblue"></p>
+
+
+
+<P id="subtotalforred"></P>
+<P id="subtotalforyellow"></P>
+<P id="subtotalforblue"></P>
+
+<P id="aicisumacontor"></P>
+<p id="aicisumapret"></p>
+
+
+<p id="contoredd"></p>
+<p id="contoryeloww"></p>
+<p id="contorbluee"></p>
+
+
+
+<div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+        <a href="#" id="reminder_button">Track</a>
+        <a href="#" id="monthlybtn">Monthly</a>
+        <a href="#" id="where_is_money_button">Where is my money?</a>
+    </div>
+</div>
+
+<!-- Reminder Modal -->
+<div id="reminder_modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="reminder_close modal_close">&times;</span>
+        <div>
+            <div>Reminder</div>
+            <div>
+                Starting date: <span id="starting_date">None selected</span>&nbsp;
+            </div>
+            <div>
+                Ending date: <span id="ending_date">None selected</span>
+            </div>
+
+            <button onclick="starttracking()" id="start_tracking">Start tracking</button>
+            <button onclick="resetdate()" id="reset_tracking">Reset tracking</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- Monthly Modal -->
+<div id="monthly_modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="monthly_close modal_close">&times;</span>
+        <div>
+            <div id="monthly_text"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Where Is My Money Modal -->
+<div id="where_is_money_modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="where_is_money_close modal_close">&times;</span>
+        <div id="where_is_my_money_text"></div>
+        <div>
+            Counted Items: <span id="where_is_money_modal_counted_item">0</span><br>
+            Total Price: <span id="where_is_money_modal_total_price">0</span>
+        </div>
+    </div>
+</div>
+
+<!--EXTERNAL JS-->
+<script src="code.js"></script>
+
+</body>
+</html>
